@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title>Water'Indigenous</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href ="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </head>
+  <body>
+  <div class = "header">  
+   <div class = "container">
+    
+    <div class="navbar">
+      <div class = "logo">
+        <a>Water'Indigenous<img src = "" width= "125px"></a> <!---- logo----->
+      </div>
+      <nav>
+        <ul id = "MenuItems">
+          <li><a href="#donate">Donate</a></li>
+          <li><a href="#learn">Learn</a></li><!---make a copy of products, and instead of add to cart replace with rent button--->
+      </nav>
+    </div>
+     <div class ="row" id = "jabal">
+       <div class="col-2" id = "ds">
+         <h1 id = "ds">Indigenous Water<br> Advisory!</h1>
+         <br>
+         <p id="ds">An Indigenous Water Advisory<br> created by 😎Manojan😎</p>
+         <a href = "https://www.theindigenousfoundation.org/articles/lack-of-clean-drinking-water-in-indigenous-communities" class = "btn">Learn More! &#8594;</a>
+       </div>
+       <div class="col-2">
+         <img src = ""> <!------ random showcase img------->
+       </div>
+     </div>
+   </div>
+  </div>
+    
+    <br>
+    <br>
+    <br>
+    
+    <!-------- featured products-------->
+    <section id = "learn">
+      <div>
+        <h1 class = "title2">Water Pollution in Indigenous Communities</h1>
+      </div>
+    <div class = "small-container2">
+      <div class = "row">
+       <div class = "section" id = "gagad">
+            <div class = "testimonial">
+              <div class = "col-3">
+                <div class = "col-2">
+                <h2>What is the root cause of the unclean water in indigenous communities?</h2>
+          <h3 href = "product-details.html">Poor drinking water quality on reserve is also related to poor quality source water. A lack of funding for infrastructure, training, and maintenance. Inconsistent disinfection, as well as distribution and operational issues. High risks of contamination due to rural and remote locations of reserves. Indigenous communities are vulnerable to water contamination due to a few factors like marginalization, contamination, remote areas and maintenance of systems. Governments only give limited funding to combat water contamination.</h3>
+                </div>
+           <div class = "col-2">
+            <a href = "product-details.html"><img src = "https://i.imgur.com/SfwAZYA.png" class = "img123"</a></div>
+      </div><!---featured product image3---->
+         </div>
+         </div>
+        </div>
+        
+        <div class = "row">
+       <div class = "section" id = "gagad">
+            <div class = "testimonial">
+              <div class = "col-3">
+                <div class = "col-2">
+                <h2>Where does water pollution occur?</h2>
+          <h3 href = "product-details.html">Poor drinking water quality often occurs in the Prairie provinces like Alberta, Saskatchewan and Manitoba, as well as southern Ontario, and Quebec. This is where most of the agricultural and industrial activities occur. These areas, also happen to be where some indigenous communities live. As a result of agriculture, and industrial activites, chemical elements like nitrogen, and phosphorus are released into the environment. </h3>
+                </div>
+           <div class = "col-2">
+            <a href = "product-details.html"><img src = "https://i.imgur.com/sb2CcFk.png" class = "img123"</a></div>
+      </div><!---featured product image3---->
+         </div>
+         </div>
+        </div>
+          
+          <div class = "row">
+       <div class = "section" id = "gagad">
+            <div class = "testimonial">
+              <div class = "col-3">
+                <div class = "col-2">
+                <h2>How does the lack of clean water affect indigenous peoples?</h2>
+          <h3 href = "product-details.html">A lack of clean water restricts indigenous access to traditional food systems from historically significant bodies of water and also increases the financial burden on native peoples. A single drinking water advisory can mean as many at 5,000 people lack access to safe, clean drinking water. 73 per cent of First Nations' water systems are at high or medium risk of contamination. Lack of access to clean, safe drinking water in First Nations must be fixed for good.</h3>
+                </div>
+           <div class = "col-2">
+            <a href = "product-details.html"><img src = "https://i.imgur.com/ozCgZux.jpg" class = "img123"</a></div>
+      </div><!---featured product image3---->
+         </div>
+         </div>
+        </div>
+    </div>
+        </section>
+      <section id = "donate">
+    <div class = "offer">
+      <div class = "small-container">
+        <div class ="row">
+          <div class = "col-2">
+            <img src = "https://i.imgur.com/iK7Bhv1.jpg" class = "img123"> <!--exclusive/offer img-->
+          </div>
+          <div class = "col-2" id = "jabal">
+            <h1>Donate to the Water First Charity here!</h1>
+            <br>
+            <p>Water First is Canada's leading charitable organization working with Indigenous communities to resolve local water challenges.</p>
+            <br>
+            <a href = "https://waterfirst.ngo/donate/" class = "btn">Donate! &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+      </section>
+    
+             <!-----footer--->
+          <div class = "footer">
+            <div class = "container">
+              <div class = "row">
+                <div class = "footer-col-2">
+                  <img src = ""> <!--Logo img-->
+                  <h3>Thanks for Visiting this Website! <br><br> Created by: 😎Manojan😎</h3>
+                </div>
+              </div>
+              <hr>
+              <p class = "copyright">Copyright 2023 - Water'Indigenous</p>
+            </div>
+          </div>
+          <!--js for toggle menu-->
+          <script>
+            var MenuItems =  document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle()
+            {
+              if(MenuItems.style.maxHeight == "0px")
+                {
+                  MenuItems.style.maxHeight = "200px";
+                }
+              else
+                {
+                  MenuItems.style.maxHeight = "0px"; 
+                }
+              
+            }
+          </script>
+          
+  </body>
+</html>
